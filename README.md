@@ -11,3 +11,4 @@ The following topics will be elaborated:
   * Binary Tree
   * Binary Search Tree
   * AVL
+* Graph Data Structure
