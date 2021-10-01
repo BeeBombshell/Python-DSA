@@ -20,6 +20,8 @@ The following topics will be elaborated:
 * Backtracking
 * Dynamic Programming
 * Linked List
+  * Singly Linked List
+  * Doubly Linked List  
 * Tree Data Structure
   * BFS
   * DFS
