@@ -1,4 +1,4 @@
-# Python DSA
+# Python DSA :snake:
 This repository is a compilation of important Data Structures and Algorithms based on Python.
 
 The following topics will be elaborated:
