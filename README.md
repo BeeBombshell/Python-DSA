@@ -1,7 +1,19 @@
-# Python-DSA
+# Python DSA
 This repository is a compilation of important Data Structures and Algorithms based on Python.
+
 The following topics will be elaborated:
 * Sorting Algorithms
+  * Bubble Sort
+  * Selection Sort
+  * Insertion Sort
+  * Bucket Sort
+  * Merge Sort
+  * Quick Sort
+  * Heap Sort
+  * Tree Sort
+  * Shell Sort
+  * Count Sort
+  * Radix Sort
 * Searching Algorithms
 * Backtracking
 * Dynamic Programming
