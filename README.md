@@ -16,6 +16,7 @@ The following topics will be elaborated:
   * Radix Sort
 * Searching Algorithms
   * Linear Search
+  * Binary Search
 * Backtracking
 * Dynamic Programming
 * Tree Data Structure
