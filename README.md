@@ -19,6 +19,7 @@ The following topics will be elaborated:
   * Binary Search
 * Backtracking
 * Dynamic Programming
+* Linked List
 * Tree Data Structure
   * BFS
   * DFS
