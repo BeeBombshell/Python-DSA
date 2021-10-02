@@ -3,6 +3,7 @@ This repository is a compilation of important Data Structures and Algorithms bas
 
 The following topics will be elaborated:
 * Tuples
+* Dictionaries
 * Sorting Algorithms
   * Bubble Sort
   * Selection Sort
