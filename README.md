@@ -45,3 +45,6 @@ The following topics will be elaborated:
   * Trie
 * Graph Data Structure
 * Divide and Conquer Algorithm
+
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+
