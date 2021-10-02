@@ -6,6 +6,9 @@ Steps:
 2. Then we move all the elments lower than pivot to the left and higher than pivot to the right to the pivot
 3. Then we recursively apply the above 2 steps seperately to each of the sub-arrays of 
    element smaller and larger than last pivot
+3. Then we recursively apply the above 2 steps seperately to each of the sub-arrays of 
+   element smaller and larger than last pivot
+   
    
 """
 
