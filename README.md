@@ -12,6 +12,7 @@ The following topics will be elaborated:
 * Arrays
 * Looping
   * For Loop
+  * While Loop
 * Sorting Algorithms
   * Bubble Sort
   * Selection Sort
