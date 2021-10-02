@@ -28,5 +28,6 @@ The following topics will be elaborated:
   * Binary Tree
   * Binary Search Tree
   * AVL
+  * Trie
 * Graph Data Structure
 * Divide and Conquer Algorithm
