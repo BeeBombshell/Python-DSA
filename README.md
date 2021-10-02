@@ -22,6 +22,8 @@ The following topics will be elaborated:
 * Linked List
   * Singly Linked List
   * Doubly Linked List  
+  * Circular Singly Linked List
+  * Circular Doubly Linked List 
 * Tree Data Structure
   * BFS
   * DFS
