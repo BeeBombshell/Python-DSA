@@ -2,6 +2,7 @@
 This repository is a compilation of important Data Structures and Algorithms based on Python.
 
 The following topics will be elaborated:
+* Tuples
 * Sorting Algorithms
   * Bubble Sort
   * Selection Sort
