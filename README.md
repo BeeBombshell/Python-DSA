@@ -6,6 +6,7 @@ The following topics will be elaborated:
 * Dictionaries
 * Lists
 * Arrays
+* Looping
 * Sorting Algorithms
   * Bubble Sort
   * Selection Sort
