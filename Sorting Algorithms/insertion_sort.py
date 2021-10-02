@@ -8,3 +8,4 @@ def insertion_sort(array):
             j = j-1
 
         array[j+1] = temp
+
