@@ -10,6 +10,8 @@ The following topics will be elaborated:
 * Tuples
 * Dictionaries
 * Lists
+* Stack
+* Queue
 * Arrays
 * Looping
   * For Loop
