@@ -1,8 +1,6 @@
 # Python program to
 # demonstrate stack implementation
 # using list
-#Contributed by Varsha Gupta
- 
  
 stack = []
  
