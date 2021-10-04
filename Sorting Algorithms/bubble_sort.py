@@ -6,3 +6,4 @@ def bubble_sort(array):
                 array[j] = array[j+1]
                 array[j+1] = temp
     return array
+
