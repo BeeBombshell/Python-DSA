@@ -1,5 +1,4 @@
 # Breadth First Search 
-# By ARYA NARAYAN TIWARI
 graph = {
   'A' : ['B','C'],
   'B' : ['D', 'E'],
