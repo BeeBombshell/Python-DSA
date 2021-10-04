@@ -1,5 +1,4 @@
 # Depth First Search
-# By Arya Narayan Tiwari
 # Using a Python dictionary to act as an adjacency list
 graph = {
     'A' : ['B','C'],
