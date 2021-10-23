@@ -29,6 +29,7 @@ The following topics will be elaborated:
 * Searching Algorithms
   * Linear Search
   * Binary Search
+  * Jump Search
 * Recursion
 * Backtracking
 * Dynamic Programming
