@@ -134,3 +134,18 @@ class CircularLinkedList:
             newNode = newNode.next
             if newNode == self.last.next:
                 break
+
+if __name__ == "__main__":
+
+    cll = CircularLinkedList()
+
+    last = cll.addToEmpty(6)
+    last = cll.addEnd(8)
+    last = cll.addFront(2)
+    last = cll.addAfter(10, 2)
+
+    cll.traverse()
+
+    last = cll.deleteNode(last, 8)
+    print()
+    cll.traverse()
