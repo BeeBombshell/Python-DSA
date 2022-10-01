@@ -38,3 +38,22 @@ class CircularLinkedList:
         self.last.next = newNode
 
         return self.last
+    
+    def addEnd(self, data):
+        # check if the node is empty
+        if self.last == None:
+            return self.addToEmpty(data)
+
+        # allocate memory to the new node and add data to the node
+        newNode = Node(data)
+
+        # store the address of the last node to next of newNode
+        newNode.next = self.last.next
+
+        # point the current last node to the newNode
+        self.last.next = newNode
+
+        # make newNode as the last node
+        self.last = newNode
+
+        return self.last
