@@ -16,6 +16,7 @@ The following topics will be elaborated:
 * Arrays
   * Binary Search
   * Linear Search 
+  * Sliding Window Example
 * Looping
   * For Loop
   * While Loop
