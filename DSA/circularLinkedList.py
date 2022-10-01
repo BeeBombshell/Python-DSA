@@ -21,3 +21,20 @@ class CircularLinkedList:
         # create link to iteself
         self.last.next = self.last
         return self.last
+
+    def addFront(self, data):
+
+        # check if the list is empty
+        if self.last == None:
+            return self.addToEmpty(data)
+
+        # allocate memory to the new node and add data to the node
+        newNode = Node(data)
+
+        # store the address of the current first node in the newNode
+        newNode.next = self.last.next
+
+        # make newNode as last
+        self.last.next = newNode
+
+        return self.last
