@@ -6,9 +6,12 @@ stack = []
  
 # append() function to push
 # element in the stack
-stack.append('a')
-stack.append('b')
-stack.append('c')
+while True:
+    ch=input("Enter the choice 0 for stopping the input cycle or anything for pushing more elements to stack: ")
+    if ch=='0':
+        break
+    n=input("Enter the character you want to push to stack: ")
+    stack.append(n)
  
 print('Initial stack')
 print(stack)
@@ -16,10 +19,11 @@ print(stack)
 # pop() function to pop
 # element from stack in
 # LIFO order(Last In First Out)
+x=int(input("Enter the number of elements you want to pop out of the stack:(not more than the elements you pushed into) "))
 print('\nElements popped from stack:')
-print(stack.pop())
-print(stack.pop())
-print(stack.pop())
+while x!=0:
+    print(stack.pop())
+    x-=1
  
 print('\nStack after elements are popped:')
 print(stack)
