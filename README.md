@@ -14,6 +14,8 @@ The following topics will be elaborated:
 * Dictionaries
 * Lists
 * Arrays
+  * Binary Search
+  * Linear Search 
 * Looping
   * For Loop
   * While Loop
