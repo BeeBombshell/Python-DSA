@@ -13,29 +13,35 @@ Steps:
 """
 
 
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		int st=1;int sp=n/2;
-		for(int i=1;i<=n;i++) {
-			for(int j=1;j<=sp;j++) {
-				if(i==n/2+1) {
-					System.out.print("* ");
-				}
-				else {
-					System.out.print("  ");
-				}
-			}
-			for(int j=1;j<=st;j++) {
-				System.out.print("* ");
-			}
-			if(i<=n/2) {
-				st++;
-			}
-			else {
-				st--;
-			}
-			System.out.println();
-		}
-		
-	}
+def partition(array, low, high):
+
+	pivot = array[high]
+
+	i = low - 1
+
+	for j in range(low, high):
+		if array[j] <= pivot:
+
+			i = i + 1
+
+			array[i], array[j] = array[j], array[i]
+
+	array[i + 1], array[high] = array[high], array[i + 1]
+
+	return i + 1
+
+
+def quickSort(array, low, high):
+	if low < high:
+		pi = partition(array, low, high)
+
+		quickSort(array, low, pi - 1)
+
+		quickSort(array, pi + 1, high)
+
+
+A= [4,6,2,7,8,3,0]
+
+quickSort(A, 0, len(A)- 1)
+print(A)
 
