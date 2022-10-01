@@ -86,3 +86,39 @@ class CircularLinkedList:
             if p == self.last.next:
                 print(item, "The given node is not present in the list")
                 break
+    
+    def deleteNode(self, last, key):
+
+        # If linked list is empty
+        if last == None:
+            return
+
+        # If the list contains only a single node
+        if (last).data == key and (last).next == last:
+
+            last = None
+
+        temp = last
+        d = None
+
+        # if last node is to be deleted
+        if (last).data == key:
+
+            # find the node before the last node
+            while temp.next != last:
+                temp = temp.next
+
+            # point temp node to the next of last i.e. first node
+            temp.next = (last).next
+            last = temp.next
+
+        # travel to the node to be deleted
+        while temp.next != last and temp.next.data != key:
+            temp = temp.next
+
+        # if node to be deleted was found
+        if temp.next.data == key:
+            d = temp.next
+            temp.next = d.next
+
+        return last
