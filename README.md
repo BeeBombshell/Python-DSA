@@ -20,6 +20,7 @@ The following topics will be elaborated:
 * Looping
   * For Loop
   * While Loop
+  * do While Loop
 * Sorting Algorithms
   * Bubble Sort
   * Selection Sort
@@ -61,6 +62,7 @@ The following topics will be elaborated:
   * Preorder Tree Traversal
   * Postorder Tree Traversal
   * Binary Tree Max Path
+  * Morris Traversal
 * Graph Data Structure
   * Breadth First Search
   * Depth First Search
