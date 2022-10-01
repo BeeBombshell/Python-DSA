@@ -42,7 +42,14 @@ The following topics will be elaborated:
   * Singly Linked List
   * Doubly Linked List  
   * Circular Singly Linked List
-  * Circular Doubly Linked List 
+  * Circular Doubly Linked List
+  * Reverse Linked List
+  * Merge Linked List
+  * Middle Linked List
+  * Palindromic Linked List
+  * Cycle exist in Linked List
+  * Start of cycle in Linked List
+  * Happy Number
 * Tree Data Structure
   * BFS
   * DFS
@@ -55,6 +62,9 @@ The following topics will be elaborated:
   * Postorder Tree Traversal
   * Binary Tree Max Path
 * Graph Data Structure
+  * Breadth First Search
+  * Depth First Search
+  * Number of Islands
 * Divide and Conquer Algorithm
 
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
