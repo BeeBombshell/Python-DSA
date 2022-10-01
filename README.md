@@ -47,6 +47,8 @@ The following topics will be elaborated:
   * Binary Search Tree
   * AVL tree
   * Trie
+  * Inorder Tree Traversal
+  * Preorder Tree Traversal
 * Graph Data Structure
 * Divide and Conquer Algorithm
 
