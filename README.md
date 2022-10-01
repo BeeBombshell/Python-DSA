@@ -1,7 +1,7 @@
 # Python DSA :snake:
 
-## Hacktoberfest Accepted
-<img src="https://pbs.twimg.com/profile_images/1567906020831150081/oJ7mKaaj_400x400.jpg" width=50 height=50 />
+## <img src="https://pbs.twimg.com/profile_images/1567906020831150081/oJ7mKaaj_400x400.jpg" width=25 height=25 /> Hacktoberfest Accepted
+
 
 This repository is a compilation of important Data Structures and Algorithms based on Python.
 
