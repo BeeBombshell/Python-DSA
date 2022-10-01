@@ -57,3 +57,32 @@ class CircularLinkedList:
         self.last = newNode
 
         return self.last
+
+    def addAfter(self, data, item):
+
+        # check if the list is empty
+        if self.last == None:
+            return None
+
+        newNode = Node(data)
+        p = self.last.next
+        while p:
+
+            # if the item is found, place newNode after it
+            if p.data == item:
+
+                # make the next of the current node as the next of newNode
+                newNode.next = p.next
+
+                # put newNode to the next of p
+                p.next = newNode
+
+                if p == self.last:
+                    self.last = newNode
+                    return self.last
+                else:
+                    return self.last
+            p = p.next
+            if p == self.last.next:
+                print(item, "The given node is not present in the list")
+                break
