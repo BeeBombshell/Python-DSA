@@ -49,6 +49,8 @@ The following topics will be elaborated:
   * Trie
   * Inorder Tree Traversal
   * Preorder Tree Traversal
+  * Postorder Tree Traversal
+  * Binary Tree Max Path
 * Graph Data Structure
 * Divide and Conquer Algorithm
 
