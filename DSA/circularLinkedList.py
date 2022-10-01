@@ -122,3 +122,15 @@ class CircularLinkedList:
             temp.next = d.next
 
         return last
+
+    def traverse(self):
+        if self.last == None:
+            print("The list is empty")
+            return
+
+        newNode = self.last.next
+        while newNode:
+            print(newNode.data, end=" ")
+            newNode = newNode.next
+            if newNode == self.last.next:
+                break
