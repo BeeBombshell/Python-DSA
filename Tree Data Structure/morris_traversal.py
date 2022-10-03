@@ -36,13 +36,7 @@ def morris_traversal(root):
 				yield current.data
 				current = current.right
 
-root = Node(1,
-			right=Node(3),
-			left=Node(2,
-					left=Node(4),
-					right=Node(5)
-					)
-			)
+root = Node(1,right=Node(3),left=Node(2,left=Node(4),right=Node(5)))
 
 for v in morris_traversal(root):
 	print(v, end=' ')
