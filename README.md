@@ -33,6 +33,7 @@ The following topics will be elaborated:
   * Linear Search
   * Binary Search
 * Recursion
+  * Ackermann Function
 * Backtracking
 * Dynamic Programming
 * Linked List
